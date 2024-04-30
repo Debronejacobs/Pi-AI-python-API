@@ -19,30 +19,42 @@ this is a python script that allows you to chat with Pi ai from https://pi.ai/ta
    - You can find **Pi** at [this link](https://pi.ai/talk) ¹.
    - It's like having a **virtual companion**—ready to chat, offer insights, or simply be there whenever you need it.
 
-so this script allows you to chat with Pi ai via the terminal , you can also adapt it to chat with the ai in various other ways.
-the script needs two things
-1. the cookies
-2. chat id
-to get them you need to create an account at https://pi.ai
-after making the account open your browser dev tools
-Google Chrome
-Windows/Linux: Press Ctrl + Shift + I or F12. You can also right-click on any page element and select "Inspect" from the context menu.
-macOS: Press Cmd + Option + I. Alternatively, right-click on any page element and select "Inspect".
-Mozilla Firefox
-Windows/Linux: Press Ctrl + Shift + I or F12 for the toolbox. For just the console, use Ctrl + Shift + K.
-macOS: Press Cmd + Option + I for the toolbox. For just the console, use Cmd + Option + K.
-Safari
-First, ensure that the developer menu is enabled by going to Safari > Preferences > Advanced, and checking the box at the bottom that says "Show Develop menu in menu bar".
-macOS: Once the Develop menu is enabled, you can press Cmd + Option + I to open the developer tools.
-Microsoft Edge
-Windows/Linux: Press F12 or Ctrl + Shift + I.
-macOS: Press Cmd + Option + I.
-Opera
-Windows/Linux: Press Ctrl + Shift + I or use Ctrl + Shift + C to directly go into the element inspector mode.
-macOS: Press Cmd + Option + I
-now go to the Network tab
-send a message to the ai
-look for the network request named chat 
+This script enables you to interact with Pi AI via the terminal. Additionally, you can modify it to communicate with the AI in various other ways. To use this script effectively, you'll need two key pieces of information:
+
+1. The cookies
+2. The chat ID
+
+To obtain these, you must first create an account at [Pi AI's website](https://pi.ai).
+
+### Accessing Browser Developer Tools
+Once you have made your account, open your browser's developer tools to capture the required information. Here’s how you can open the developer tools across different browsers:
+
+#### Google Chrome
+- **Windows/Linux:** Press `Ctrl + Shift + I` or `F12`. Alternatively, right-click on any page element and select "Inspect" from the context menu.
+- **macOS:** Press `Cmd + Option + I`. You can also right-click on any page element and select "Inspect".
+
+#### Mozilla Firefox
+- **Windows/Linux:** Press `Ctrl + Shift + I` or `F12` to open the toolbox. For just the console, use `Ctrl + Shift + K`.
+- **macOS:** Press `Cmd + Option + I` for the toolbox. For just the console, use `Cmd + Option + K`.
+
+#### Safari
+- **macOS:** First, ensure that the developer menu is enabled by going to Safari > Preferences > Advanced, and checking the box at the bottom that says "Show Develop menu in menu bar". Once enabled, you can press `Cmd + Option + I` to open the developer tools.
+
+#### Microsoft Edge
+- **Windows/Linux:** Press `F12` or `Ctrl + Shift + I`.
+- **macOS:** Press `Cmd + Option + I`.
+
+#### Opera
+- **Windows/Linux:** Press `Ctrl + Shift + I` or use `Ctrl + Shift + C` to directly go into the element inspector mode.
+- **macOS:** Press `Cmd + Option + I`.
+
+### Capturing Cookies and Chat ID
+After accessing the developer tools:
+- Navigate to the **Network** tab.
+- Send a message to the AI.
+- Look for the network request named `chat`.
+
+The cookies can  be found in the request headers 
 
 ![image](https://github.com/Debronejacobs/Pi-AI-python-client/assets/167520006/70d0a30c-41ed-4d78-90ee-477dca4305dd)
 
