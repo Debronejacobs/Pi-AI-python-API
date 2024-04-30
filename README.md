@@ -44,11 +44,18 @@ now go to the Network tab
 send a message to the ai
 look for the network request named chat 
 
+![image](https://github.com/Debronejacobs/Pi-AI-python-client/assets/167520006/70d0a30c-41ed-4d78-90ee-477dca4305dd)
+
 
 
 
 
 look for the cookie in the request header
+
+
+
+![image](https://github.com/Debronejacobs/Pi-AI-python-client/assets/167520006/5750e5cb-fe68-4382-8303-b600290f592c)
+
 
 
 
