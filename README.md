@@ -56,6 +56,9 @@ After accessing the developer tools:
   
 ![image](https://github.com/Debronejacobs/Pi-AI-python-client/assets/167520006/ad0615b9-f071-4c39-b6f3-bb9fed57fec3)
 
+
+now tap on  'chat' 
+
 The cookies can  be found in the request headers 
 
 ![image](https://github.com/Debronejacobs/Pi-AI-python-client/assets/167520006/70d0a30c-41ed-4d78-90ee-477dca4305dd)
