@@ -53,6 +53,8 @@ After accessing the developer tools:
 - Navigate to the **Network** tab.
 - Send a message to the AI.
 - Look for the network request named `chat`.
+  
+![image](https://github.com/Debronejacobs/Pi-AI-python-client/assets/167520006/ad0615b9-f071-4c39-b6f3-bb9fed57fec3)
 
 The cookies can  be found in the request headers 
 
