@@ -103,6 +103,7 @@ look for the conversation id in the payload section
 
 
 now when you run the script provide the session cookie and chat id
+please feel free to improve upon the script.
 
 
 
