@@ -106,7 +106,7 @@ now when you run the script provide the session cookie and chat id
 please feel free to improve upon the script.
 
 
-
+if interested look you can also chat with it via telegram using this code ......
 
 
 
